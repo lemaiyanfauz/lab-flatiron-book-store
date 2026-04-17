@@ -43,5 +43,23 @@ const bookStore = {
     ]
 }
 
+const bookContainer = document.createElement("li");
+const bookTitle = document.createElement("h3");
+const bookAuthor = document.createElement("p");
+const bookImage = document.createElement("img");
+
+
+bookTitle.textContent = book.title;
+bookAuthor.textContent = book.author;
+bookImage.src = book.imageUrl;
+bookImage.alt = book.title;
+
+
+bookContainer.appendChild(bookTitle);
+bookContainer.appendChild(bookAuthor);
+bookContainer.appendChild(bookImage);
+
+
+bookList.appendChild(bookContainer);
 // Write your code here!
 
