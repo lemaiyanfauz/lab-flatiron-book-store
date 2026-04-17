@@ -61,5 +61,7 @@ bookContainer.appendChild(bookImage);
 
 
 bookList.appendChild(bookContainer);
+});
+
 // Write your code here!
 
